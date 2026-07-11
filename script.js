@@ -5,13 +5,13 @@
 const menuBtn = document.querySelector(".menu-btn");
 const navbar = document.querySelector(".navbar");
 
-if(menuBtn){
+if(menuBtn && navbar){
 
-menuBtn.addEventListener("click", () => {
+    menuBtn.addEventListener("click", () => {
 
-    navbar.classList.toggle("active");
+        navbar.classList.toggle("active");
 
-});
+    });
 
 }
 
